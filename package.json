@@ -1,0 +1,19 @@
+{
+  "name": "thoreau-journals",
+  "type": "module",
+  "scripts": {
+    "format": "bun x prettier --write index.html",
+    "dev": "bun run localServer.ts",
+    "tailwind": "bun x @tailwindcss/cli -i ./input.css -o ./styles.css"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.12",
+    "tailwindcss": "^4.0.12"
+  }
+}
