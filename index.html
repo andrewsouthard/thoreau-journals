@@ -15,9 +15,11 @@
         background-color: #f5efe0;
         font-family: "Newsreader", serif;
       }
+
       .quintessential {
         font-family: "Quintessential", cursive;
       }
+
       .paper {
         background-image:
           linear-gradient(#f0e6d2 1px, transparent 1px),
@@ -27,6 +29,7 @@
           24px 100%;
         position: relative;
       }
+
       .paper::before {
         content: "";
         position: absolute;
@@ -37,6 +40,7 @@
         opacity: 0.03;
         z-index: -1;
       }
+
       .year-marker {
         font-size: 1.8rem;
         font-weight: bold;
@@ -46,17 +50,21 @@
         border-bottom: 2px solid #8b5a2b;
         position: relative;
       }
+
       .entry-content {
         text-align: justify;
         hyphens: auto;
       }
+
       /* Add margin between p tags but only between them */
       .entry-content .page > div > * + * {
         margin-top: 1.2rem;
       }
+
       .sepia-filter {
         filter: sepia(10%);
       }
+
       .header-container {
         background-color: rgba(255, 252, 242, 0.7);
         border-radius: 0.5rem;
@@ -64,12 +72,14 @@
         padding: 1.5rem;
         margin-bottom: 2rem;
       }
+
       .intro-text {
         font-size: 1.1rem;
         line-height: 1.6;
       }
     </style>
   </head>
+
   <body class="bg-[#F5EFE0] text-[#4A3F35] lg:p-6">
     <div
       id="root"
@@ -89,9 +99,12 @@
             Henry David Thoreau kept detailed journals during his life,
             recording his observations of nature, society, and his innermost
             thoughts. This page displays entries that Thoreau wrote on today's
-            date across different years of his life. Experience the seasons
-            changing through Thoreau's eyes and discover how his reflections on
-            nature and society continue to resonate with us today.
+            date across different years of his life. Inspired by Austin Kleon's
+            <a
+              class="underline"
+              href="https://austinkleon.com/2018/11/13/a-year-of-thoreau/"
+              >Year with Thoreau</a
+            >.
           </p>
         </div>
 

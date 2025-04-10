@@ -2,7 +2,7 @@
   "name": "thoreau-journals",
   "type": "module",
   "scripts": {
-    "format": "bun x prettier --write index.html",
+    "format": "bun x prettier --write *.html",
     "dev": "bun run localServer.ts",
     "tailwind": "bun x @tailwindcss/cli -i ./input.css -o ./styles.css"
   },
