@@ -1,0 +1,3 @@
+# Visual-verification overrides. Format: source_pdf | page | parsed_month | parsed_day | fix_month | fix_day | reason
+# Applied to parsed entries before DB/JSON write. Page = PDF page index (0-based).
+Journal-7-Chapter-6.pdf	23	2	29	2	22	printed header reads "Feb. 22." (verified from page image); text layer misreads 22 as 29
